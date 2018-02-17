@@ -7,7 +7,7 @@
            remote="moslevin-github"
            sync-j="4" />
 
-  <project path="kernel" name="Mark3">
-  <project path="tools/flavr" name="flavr">
+  <project path="kernel" name="Mark3" />
+  <project path="tools/flavr" name="flavr" />
   
 </manifest>

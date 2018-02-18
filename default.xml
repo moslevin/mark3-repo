@@ -7,7 +7,17 @@
            remote="moslevin-github"
            sync-j="4" />
 
-  <project path="kernel" name="Mark3" />
+  <project path="." name="Mark3" />
+  <project path="kernel/lib/heap" name="mark3-heap" />
+  <project path="kernel/lib/gui" name="mark3-gui" />
+  <project path="kernel/lib/nlfs" name="mark3-nlfs" />
+  <project path="kernel/lib/terminal" name="mark3-gui" />
+  <project path="kernel/lib/random" name="mark3-random" />
+  <project path="kernel/lib/rtc" name="mark3-rtc" />
+  <project path="kernel/lib/socket" name="mark3-socket" />
+  <project path="kernel/lib/state-machine" name="state-machine" />
+  <project path="bsp/avr1284p" name="mark3-bsp-avr1284p" />
   <project path="tools/flavr" name="flavr" />
+  <project path="external/brickbreak" name="brickbreak" />
   
 </manifest>

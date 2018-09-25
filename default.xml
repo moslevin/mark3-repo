@@ -7,14 +7,15 @@
            remote="moslevin-github"
            sync-j="4" />
 
-  <project path="." name="Mark3" revision="mark3-focus" />
-  <project path="kernel/libs/heap" name="mark3-heap" />
-  <project path="kernel/libs/gui" name="mark3-gui" />
-  <project path="kernel/libs/nlfs" name="mark3-nlfs" />
-  <project path="kernel/libs/terminal" name="mark3-terminal" />
-  <project path="kernel/libs/random" name="mark3-random" />
-  <project path="kernel/libs/rtc" name="mark3-rtc" />
-  <project path="kernel/libs/state-machine" name="state-machine" />
+  <project path="." name="Mark3" revision="full_throttle" />
+  <project path="kernel/lib/heap" name="full_throttle" />
+  <project path="kernel/lib/gui" name="full_throttle" />
+  <project path="kernel/lib/nlfs" name="full_throttle" />
+  <project path="kernel/lib/terminal" name="full_throttle" />
+  <project path="kernel/lib/random" name="full_throttle" />
+  <project path="kernel/lib/rtc" name="full_throttle" />
+  <project path="kernel/libs/state-machine" name="full_throttle" />
   <project path="tools/flavr" name="flavr" />
-  <project path="bsp/arch/avr/atmega1284p/gcc" name="mark3-bsp-atmega1284p" />
+  <project path="bsp/arch/avr/atmega1284p/gcc" name="full_throttle" />
+  <project path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" name="full_throttle" />
 </manifest>

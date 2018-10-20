@@ -17,5 +17,5 @@
   <project path="kernel/libs/state-machine" name="mark3-state" revision="full_throttle" />
   <project path="tools/flavr" name="flavr" />
   <project path="bsp/arch/avr/atmega1284p/gcc" name="mark3-bsp-atmega1284p" revision="full_throttle" />
-  <project path="bsp/arch/avr/qemu_lm3s6965evb/gcc" name="mark3-bsp-qemu_lm3s6965evb" revision="full_throttle" />
+  <project path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" name="mark3-bsp-qemu_lm3s6965evb" revision="full_throttle" />
 </manifest>

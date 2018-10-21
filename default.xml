@@ -18,6 +18,6 @@
   <project path="tools/flavr" name="flavr" />
   <project path="bsp/arch/avr/atmega1284p/gcc" name="mark3-bsp-atmega1284p" revision="full_throttle" />
   <project path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" name="mark3-bsp-qemu_lm3s6965evb" revision="full_throttle" />
-  <project path="bsp/arch/a53/qemu_raspi3/gcc" name="mark3-bs-qemu_raspi3" revision="full_throttle" />
+  <project path="bsp/arch/a53/qemu_raspi3/gcc" name="mark3-bsp-qemu_raspi3" revision="full_throttle" />
   <project path="kernel/arch/a53/qemu_raspi3/gcc" name="mark3-bsp-qemu_raspi3" revision="full_throttle" />
 </manifest>

@@ -8,13 +8,17 @@
            sync-j="4" />
 
   <project path="." name="Mark3" revision="full_throttle" />
-  <project path="kernel/lib/heap" name="mark3-heap" revision="full_throttle" />
-  <project path="kernel/lib/gui" name="mark3-gui" revision="full_throttle" />
-  <project path="kernel/lib/nlfs" name="mark3-nlfs" revision="full_throttle" />
-  <project path="kernel/lib/terminal" name="mark3-terminal" revision="full_throttle" />
-  <project path="kernel/lib/random" name="mark3-random" revision="full_throttle" />
-  <project path="kernel/lib/rtc" name="mark3-rtc" revision="full_throttle" />
-  <project path="kernel/libs/state-machine" name="state-machine" revision="full_throttle" />
+  <project path="lib/heap" name="mark3-heap" revision="full_throttle" />
+  <project path="lib/gui" name="mark3-gui" revision="full_throttle" />
+  <project path="lib/nlfs" name="mark3-nlfs" revision="full_throttle" />
+  <project path="lib/terminal" name="mark3-terminal" revision="full_throttle" />
+  <project path="lib/random" name="mark3-random" revision="full_throttle" />
+  <project path="lib/rtc" name="mark3-rtc" revision="full_throttle" />
+  <project path="lib/logger" name="mark3-logger" revision="master" />
+  <project path="lib/state-machine" name="state-machine" revision="full_throttle" />
   <project path="tools/flavr" name="flavr" />
   <project path="bsp/arch/avr/atmega1284p/gcc" name="mark3-bsp-atmega1284p" revision="full_throttle" />
+  <project path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" name="mark3-bsp-qemu_lm3s6965evb" revision="full_throttle" />
+  <project path="bsp/arch/a53/qemu_raspi3/gcc" name="mark3-bsp-qemu_raspi3" revision="full_throttle" />
+  <project path="kernel/src/arch/a53/qemu_raspi3/gcc" name="mark3-raspi3" revision="full_throttle" />
 </manifest>

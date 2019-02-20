@@ -26,26 +26,26 @@ Once the Repo tool has been initialized, it's straightforward to initialize the
 Mark3 repo manifest at a specific location:
 
 1) Create a directory where you wish to initialize your repository.
-
+```
     $ mkdir mark3-code
     $ cd mark3-code
-
+```
 2) Set Git configuration 
-
+```
     $ git config --global user.name "Your Name"
     $ git config --global user.email "your@email.com"
-
+```
 3) Run repo init in the target directory
-
+```
     $ repo init -u https://www.github.com/moslevin/mark3-repo --no-clone-bundle
-
+``` 
 ## Downloading code
 
 An initialized repository client can download and synchronize the individual git
 repositories specified in the manifest by running the following command:
-
+```
     $ repo sync
-
+```
 ## More information
 
 See the Android project's documention for Repo [here](https://source.android.com/setup/develop/repo)

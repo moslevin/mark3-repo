@@ -37,7 +37,7 @@ Mark3 repo manifest at a specific location:
 
 3) Run repo init in the target directory
 
-    $ repo init -u https://www.github.com/moslevin/mark3-repo
+    $ repo init -u https://www.github.com/moslevin/mark3-repo --no-clone-bundle
 
 ## Downloading code
 

@@ -5,7 +5,7 @@
            
   <default revision="master"
            remote="moslevin-github"
-           sync-j="4" />
+           sync-j="2" />
 
   <project path="." name="Mark3"/>
   <project path="lib/heap" name="mark3-heap"/>

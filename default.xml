@@ -7,7 +7,10 @@
            remote="moslevin-github"
            sync-j="2" />
 
-  <project path="." name="Mark3"/>
+  <project path="." name="mark3-build"/>
+  <project path="drivers" name="mark3-driver"/>
+  <project path="docs" name="mark3-doc"/>
+  <project path="kernel" name="Mark3"/>
   <project path="lib/heap" name="mark3-heap"/>
   <project path="lib/gui" name="mark3-gui"/>
   <project path="lib/nlfs" name="mark3-nlfs"/>

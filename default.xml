@@ -17,6 +17,7 @@
   <project path="lib/terminal" name="mark3-terminal"/>
   <project path="lib/random" name="mark3-random"/>
   <project path="lib/rtc" name="mark3-rtc"/>
+  <project path="lib/c" name="mark3-libc"/>
   <project path="lib/logger" name="mark3-logger"/>
   <project path="lib/state-machine" name="state-machine"/>
   <project path="tools/flavr" name="flavr"/>

@@ -10,7 +10,7 @@
   <project name="mark3-bsp-qemu_lm3s6965evb" path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" revision="4a28a7d6a73c2a618f0d76570f09768cd0874a02" upstream="master"/>
   <project name="mark3-bsp-qemu_raspi3" path="bsp/arch/a53/qemu_raspi3/gcc" revision="fc9177db757fe8c949d58d3c86476490908966f6" upstream="master"/>
   <project name="mark3-build" path="." revision="9a676be60d4ee38ea7775d48154a4d6f5d4218e5" upstream="master"/>
-  <project name="mark3-doc" path="docs" revision="faa255b9b5fa6797fe7987d24bad371da62e5e5f" upstream="master"/>
+  <project name="mark3-doc" path="docs" revision="234a4a52b36538417adc884071c56c8fa433e9d9" upstream="master"/>
   <project name="mark3-driver" path="drivers" revision="3b214e3815a43693e8efae088609a8bb2439d220" upstream="master"/>
   <project name="mark3-gui" path="lib/gui" revision="45224db60abd23b078a25c5452b20d4f1a9a3ee5" upstream="master"/>
   <project name="mark3-heap" path="lib/heap" revision="d720b9dac377b129239f9449ff241d3fe7f8dcf4" upstream="master"/>

@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="moslevin-github"
-           fetch="https://github.com/moslevin" />
-           
-  <default revision="master"
-           remote="moslevin-github"
-           sync-j="2" />
-
-  <project path="." name="mark3-build"/>
-  <project path="drivers" name="mark3-driver"/>
-  <project path="docs" name="mark3-doc"/>
-  <project path="kernel" name="Mark3"/>
-  <project path="lib/heap" name="mark3-heap"/>
-  <project path="lib/gui" name="mark3-gui"/>
-  <project path="lib/nlfs" name="mark3-nlfs"/>
-  <project path="lib/terminal" name="mark3-terminal"/>
-  <project path="lib/random" name="mark3-random"/>
-  <project path="lib/rtc" name="mark3-rtc"/>
-  <project path="lib/logger" name="mark3-logger"/>
-  <project path="lib/state-machine" name="state-machine"/>
-  <project path="tools/flavr" name="flavr"/>
-  <project path="bsp/arch/avr/atmega1284p/gcc" name="mark3-bsp-atmega1284p"/>
-  <project path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" name="mark3-bsp-qemu_lm3s6965evb"/>
-  <project path="bsp/arch/a53/qemu_raspi3/gcc" name="mark3-bsp-qemu_raspi3"/>
-  <project path="kernel/src/arch/a53/qemu_raspi3/gcc" name="mark3-raspi3"/>
-
+  <remote fetch="https://github.com/moslevin" name="moslevin-github"/>
+  
+  <default remote="moslevin-github" revision="master" sync-j="2"/>
+  
+  <project name="Mark3" path="kernel" revision="efd21424e2cbb5a553b88c054765dcf5f40ea071" upstream="master"/>
+  <project name="flavr" path="tools/flavr" revision="a8cf5c1c74a1a9334278de2b20cc1770803c5154" upstream="master"/>
+  <project name="mark3-bsp-atmega1284p" path="bsp/arch/avr/atmega1284p/gcc" revision="f59989e58cdc69ec8d434db0179ee002b7545491" upstream="master"/>
+  <project name="mark3-bsp-qemu_lm3s6965evb" path="bsp/arch/cm3/qemu_lm3s6965evb/gcc" revision="4a28a7d6a73c2a618f0d76570f09768cd0874a02" upstream="master"/>
+  <project name="mark3-bsp-qemu_raspi3" path="bsp/arch/a53/qemu_raspi3/gcc" revision="fc9177db757fe8c949d58d3c86476490908966f6" upstream="master"/>
+  <project name="mark3-build" path="." revision="9a676be60d4ee38ea7775d48154a4d6f5d4218e5" upstream="master"/>
+  <project name="mark3-doc" path="docs" revision="faa255b9b5fa6797fe7987d24bad371da62e5e5f" upstream="master"/>
+  <project name="mark3-driver" path="drivers" revision="3b214e3815a43693e8efae088609a8bb2439d220" upstream="master"/>
+  <project name="mark3-gui" path="lib/gui" revision="45224db60abd23b078a25c5452b20d4f1a9a3ee5" upstream="master"/>
+  <project name="mark3-heap" path="lib/heap" revision="d720b9dac377b129239f9449ff241d3fe7f8dcf4" upstream="master"/>
+  <project name="mark3-logger" path="lib/logger" revision="f153cc89d35908fd1c7ac34ae4269b336a2889a3" upstream="master"/>
+  <project name="mark3-nlfs" path="lib/nlfs" revision="31fc7c129733cb23fdeb8de5862420639e8682a6" upstream="master"/>
+  <project name="mark3-random" path="lib/random" revision="d2d156980fb0fbba04625490fafdb779b83afed6" upstream="master"/>
+  <project name="mark3-raspi3" path="kernel/src/arch/a53/qemu_raspi3/gcc" revision="6b71bf3ea268dfc3b9169f4f73e82d37f282b311" upstream="master"/>
+  <project name="mark3-rtc" path="lib/rtc" revision="9de802492b596d6c5671bace8c4c868c1883b7b2" upstream="master"/>
+  <project name="mark3-terminal" path="lib/terminal" revision="263a74cb9c076de3b71e2d5095005dc0fcdd2761" upstream="master"/>
+  <project name="state-machine" path="lib/state-machine" revision="1386bc053d5845a7cba0bf274869a64222c9d404" upstream="master"/>
 </manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="moslevin-github"
-           fetch="https://github.com/moslevin" />
+           fetch="ssh://git@github.com/moslevin" />
            
   <default revision="master"
            remote="moslevin-github"
